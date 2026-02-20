@@ -19,3 +19,12 @@ let b = 20;
 let sum = a + b;
 
 console.log(sum);
+const numbers = [10, 20, 30, 40];
+
+let total = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+  total = total + numbers[i];
+}
+
+console.log(total);
